@@ -5,3 +5,9 @@
 @import "md";
 @import "sm";
 @import "xs";
+
+main {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}

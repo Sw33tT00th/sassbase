@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"style.css","sourceRoot":"/source/","sourcesContent":[]}
+{"version":3,"sources":["main/_main.scss"],"names":[],"mappings":"AAQA,KACC,iBACA,iBACA,iBAAmB,CACnB","file":"style.css","sourcesContent":["/*********************************************************\n* Media Queries\n*********************************************************/\n@import \"lg\";\n@import \"md\";\n@import \"sm\";\n@import \"xs\";\n\nmain {\n\tmax-width: 1200px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n}"],"sourceRoot":"/source/"}
