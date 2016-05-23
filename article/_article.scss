@@ -5,3 +5,25 @@
 @import "md";
 @import "sm";
 @import "xs";
+
+.featured-parent {
+	width: 30%;
+}
+
+.featured-books {
+	@extend .featured-parent;
+	background-color: $color-books;
+	margin-right: 3.33%;
+}
+
+.featured-games {
+	@extend .featured-parent;
+	background-color: $color-games;
+	margin: 0 1.515%;
+}
+
+.featured-movies {
+	@extend .featured-parent;
+	background-color: $color-movies;
+	margin-left: 3.33%;
+}
